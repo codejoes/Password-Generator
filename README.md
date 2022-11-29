@@ -12,10 +12,10 @@ N/A
 
 ## Usage
 
-This webpage will generate an alert message when loaded up instructing users to input the correct type of data and how much data in order for the password generator to return a secure password. The input should be only numbers and the total number of letters, numbers, and symbols should be at least 8. 
+This webpage will generate an alert message when loaded up instructing users to input the correct type of data and how much data in order for the password generator to return a secure password. The input should be only numbers and the total number of letters, numbers, and symbols should be at least 8, but less than 128. 
 
 ![Screenshot of Website](./code/Assets/Images/Screenshot%202022-11-28%20233543.png)
-[Website URL]()
+[Website URL](https://codejoes.github.io/Password-Generator/)
 
 ## Credits
 
