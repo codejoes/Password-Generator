@@ -1,5 +1,5 @@
 // Alert with instructions and reset password on page load
-alert("INSTRUCTIONS: Make sure to input only numbers and that the total amount of uppercase and lowercase letters, symbols, and numbers add up to at least 8!")
+alert("INSTRUCTIONS: Make sure to input only numbers and that the total amount of uppercase and lowercase letters, symbols, and numbers add up to at least 8 but less than 128!")
 document.getElementById("password").value = '';
 
 // Assignment code here
@@ -46,7 +46,7 @@ function generatePassword() {
 
   var size = uC + lC + num + sym;
 
-  if (size === 0 || size <= 7) {
+  if (size === 0 || size <= 7 || size >= 128) {
     alert("User input incorrect, please make sure to input numbers with a combined total of 8 letters, symbols, and numbers!")
     return ("Incorrect Input!")
   }
