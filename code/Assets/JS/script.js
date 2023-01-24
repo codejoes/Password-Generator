@@ -60,7 +60,7 @@ function generatePassword() {
     for (let i = 0; i < num; i++) {
       passArr.push(numbers[Math.floor(Math.random() * numbers.length)]);
     }
-    for (let i = 0; i < lC; i++) {
+    for (let i = 0; i < sym; i++) {
       passArr.push(symbols[Math.floor(Math.random() * symbols.length)]);
     }
   }
